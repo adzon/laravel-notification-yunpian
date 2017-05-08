@@ -1,0 +1,39 @@
+{
+    "name": "adzon/laravel-notification-yunpian",
+    "description": "Use yunpian to send notification.",
+    "homepage": "https://github.com/adzon/laravel-notification-yunpian",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "adzon",
+            "email": "76762@qq.com",
+            "homepage": "http://www.huleping.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "laravel/framework": "5.4.*",
+        "laravel/tinker": "~1.0",
+    },
+    "require-dev": {
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "NotificationChannels\\Yunpian\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NotificationChannels\\Yunpian\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
