@@ -4,7 +4,7 @@ Laravel的notifications使用起来很舒服，之前做了一个微信的自定
 
 https://laravel.com/docs/master/notifications
 
-有问题请邮件联系我： 76762@qq.com
+有问题请邮件联系我： 76762@qq.com ~
 
 # Laravel的短信通知 (使用云片网)
 
