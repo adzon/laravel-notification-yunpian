@@ -1,4 +1,4 @@
-Laravel的notifications使用起来很舒服，但是找了下网上没有使用微信来做通知的包，所以自己做了一个。
+Laravel的notifications使用起来很舒服，之前做了一个微信的自定义频道，现在再做一个用云片网来做短信通知的自定义频道。
 
 不了解notifications是什么的，可以在官方文档中去了解：
 
@@ -6,7 +6,7 @@ https://laravel.com/docs/master/notifications
 
 有问题请邮件联系我： 76762@qq.com
 
-# Laravel的微信通知
+# Laravel的短信通知 (使用云片网)
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/adzon/laravel-notification-wechat.svg?style=flat-square)](https://packagist.org/packages/adzon/laravel-notification-wechat)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
@@ -17,7 +17,7 @@ https://laravel.com/docs/master/notifications
 [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/adzon/laravel-notification-wechat/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/adzon/laravel-notification-wechat/?branch=master)
 [![Total Downloads](https://img.shields.io/packagist/dt/adzon/laravel-notification-wechat.svg?style=flat-square)](https://packagist.org/packages/adzon/laravel-notification-wechat)
 
-本项目可以在 Laravel 5.4中使用 [Wechat](https://mp.weixin.qq.com) 来通知客户。
+本项目可以在 Laravel 5.4中使用 [云片网](http://www.yunpian.com/) 来通知客户。
 
 ## Contents
 
@@ -30,7 +30,7 @@ https://laravel.com/docs/master/notifications
 ## 安装说明
 
 ```bash
-composer require adzon/laravel-notification-wechat
+composer require adzon/laravel-notification-yunpian
 ```
 
 ## 使用说明
